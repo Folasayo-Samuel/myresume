@@ -1,0 +1,44 @@
+html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif
+}
+body{
+    background-color: hsla(189, 100%, 50%, 0.699);
+}
+h2{
+    font-weight: bolder;
+    text-shadow: 2px 2px 4px #000000;
+}
+img.logo{
+    margin: 0;
+    width: 200px;
+    position: relative;
+    float: right;
+    right: 0;
+    bottom: 10;
+}
+h3{
+    margin: 0;
+    font-size: 20px;
+}
+a {
+    display: inline-block;
+    margin-top: 2px;
+    padding: 5px 3px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: hsla(189, 100%, 50%, 0.699);
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+  
+a:hover {background-color: #3e8e41}
+  
+a:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
